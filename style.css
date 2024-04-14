@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("https://images3.alphacoders.com/551/551456.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-color: black;
+    color: rgb(0, 0, 0);
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1100px; /* larghezza massima del container */
+    background-color: rgba(0, 0, 0, 0.8); /* colore di sfondo con trasparenza */
+    border-radius: 10px; /* bordi arrotondati */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* ombra */
+}
+
+h1 {
+    font-size: 6em;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+h3 {
+    font-size: 4em;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+
+img {
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 colonne con larghezza uguale */
+    grid-gap: 20px; /* spazio tra i container */
+    margin-top: 20px; /* margine superiore per separare dalla scritta */
+}
+
+.grid-container1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colonne con larghezza uguale */
+    grid-gap: 20px; /* spazio tra i container */
+    margin-top: 20px; /* margine superiore per separare dalla scritta */
+}
+
+.character {
+    text-align: center;
+    padding: 10px;
+    background-color: #000000; /* colore di sfondo */
+    border: none; /* Rimuovi il bordo del pulsante */
+    border-radius: 8px; /* bordi arrotondati */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* ombra */
+    color: white; /* colore del testo */
+    cursor: pointer; /* Cambia il cursore quando passi sopra il pulsante */
+    outline: none; /* Rimuove la bordatura attorno al pulsante quando selezionato */
+}
+
+.character:hover {
+    background-color: #333; /* Cambia il colore di sfondo al passaggio del mouse */
+}
+
+
+.chcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1100px; 
+    background-color: rgba(0, 0, 0, 0.8); 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+
+
+.left img {
+    border-radius: 10px;
+    max-width: 350px; /* Regola la larghezza massima dell'immagine a sinistra */
+}
+
+.right {
+    flex-grow: 12;
+    margin-left: 20px; /* Aggiungi spazio tra l'immagine e il testo */
+}
+
+/* Modifica lo stile del testo a tuo piacimento */
+.right p {
+    color: white;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+.corpo{
+    color: black;
+    text-align: center;
+}
+.corpo h1{
+        color:red;
+}
+
+
+section{
+    max-width: 1150px;
+
+}
+details{
+    background-color: rgba(0, 0, 0, 0.767);
+    color: rgb(255, 255, 255);
+    padding: 30px;
+    margin-bottom: 2px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 10);
+    max-height: 100px;
+    overflow: hidden;
+    transition: max-height 2.3s ease-out;
+}
+
+
+details[open] {
+    max-height: 6000px; /* Altezza massima della tendina aperta */
+    transition: max-height 2.3s ease-in-out;
+}
+
+
+summary{
+    cursor: pointer;
+    font-weight: 900;
+    text-align: center;
+    font-size: 20px;
+}
+.contenitore{
+    width: 80%;
+    max-width: 1100px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: lightblue;
+}
+
